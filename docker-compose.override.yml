@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  ots-frontend:
+    build:
+      dockerfile: Dockerfile.development
+      target: development
+    command: npm run dev

@@ -1,0 +1,6 @@
+version: '3.9'
+services:
+  ots-frontend:
+    container_name: ots-frontend
+    ports:
+      - 3000:3000

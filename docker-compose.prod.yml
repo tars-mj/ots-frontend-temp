@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  ots-frontend:
+    build:
+      context: '.'
+      dockerfile: Dockerfile.production
+      # target: production
